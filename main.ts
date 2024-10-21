@@ -18,3 +18,4 @@ let ente = sprites.create(img`
     `, SpriteKind.Player)
 controller.moveSprite(ente, 100, 0)
 tiles.setCurrentTilemap(tilemap`Level2`)
+ente.ay = 350
