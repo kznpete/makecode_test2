@@ -1,4 +1,10 @@
-let ente = sprites.create(img`
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    if (ente.vy == 0) {
+        ente.vy = -150
+    }
+})
+let ente: Sprite = null
+ente = sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
     . . . . . . . . . b c . . . . . 
